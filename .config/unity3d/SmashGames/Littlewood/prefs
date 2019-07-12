@@ -1,0 +1,14 @@
+<unity_prefs version_major="1" version_minor="1">
+	<pref name="Screenmanager Fullscreen mode" type="int">1</pref>
+	<pref name="Screenmanager Resolution Height" type="int">1080</pref>
+	<pref name="Screenmanager Resolution Width" type="int">1920</pref>
+	<pref name="UnitySelectMonitor" type="int">0</pref>
+	<pref name="musicVolume" type="float">0.5</pref>
+	<pref name="resolutionX" type="int">1920</pref>
+	<pref name="resolutionY" type="int">1080</pref>
+	<pref name="soundEffectsVolume" type="float">1</pref>
+	<pref name="unity.cloud_userid" type="string">ZDVjM2UxZmZhYzY1OTRlMjRiNTM1MGM1OWQ4YzFjMWQ=</pref>
+	<pref name="unity.player_session_background_time" type="string">MA==</pref>
+	<pref name="unity.player_session_elapsed_time" type="string">MA==</pref>
+	<pref name="unity.player_sessionid" type="string">MA==</pref>
+</unity_prefs>

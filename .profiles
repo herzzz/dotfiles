@@ -1,0 +1,19 @@
+#!/bin/sh
+
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+
+# adds '~/.scripts' and it's subdirectories to $PATH
+export PATH="$PATH:$(du "$HOME/.scripts" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
+
+export EDITOR='vim'
+export TERMINAL='termite'
+# export BROWSER="qutebrowser"
+
+export HISTFILESIZE=
+export HISTSIZE=
+export HISTCONTROL=erasedups
+export HISTTIMEFORMAT="[%F %T] "
+export HISTFILE=~/.bash_eternal_history
+PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+
+sudo -n loadkeys ~/.scripts/tools/ttymaps.kmap 2>/dev/null

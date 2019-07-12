@@ -1,0 +1,10 @@
+#!/bin/sh
+while read file
+do
+	case "$1" in
+	"w")
+		setbg "$file" "--zoom" ;; 
+	"C-w")
+		setbg "$file" "--center" ;;
+	esac
+done

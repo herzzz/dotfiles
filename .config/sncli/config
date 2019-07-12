@@ -1,0 +1,8 @@
+[sncli]
+cfg_sn_username = scheuchzeri88@gmail.com
+cfg_sn_password = rpw73ax
+
+kb_edit_note = e
+clr_note_focus_bg = light blue
+
+cfg_editor = vim

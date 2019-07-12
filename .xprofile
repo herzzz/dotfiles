@@ -1,0 +1,11 @@
+#!/bin/sh
+
+setbg &
+setxkbmap -option caps:super -variant altgr-intl && killall xcape 2>/dev/null ; xcape -e 'Super_L=Escape' &
+# properties key ans an extra mod/escape
+# xmodmap -e 'keycode 135 = Super_R' &
+xset r rate 300 50 &
+unclutter &
+xcompmgr &
+dunst &
+
