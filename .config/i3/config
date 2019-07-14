@@ -1,6 +1,6 @@
 # i3 config file (v4)
 
-
+# testestestestes #
 # ##- basic definitions -## #
 # for_window [class="^.*"] border pixel 2
 set $mod Mod4
@@ -10,7 +10,7 @@ gaps outer 5
 font pango:Fira Code 10
 
 set $term --no-startup-id $TERMINAL
-
+# focus_follows_mouse no
 # #---Dropdown Windows---# #
 # General dropdown window traits. The order can matter.
 for_window [instance="dropdown_*"] floating enable
@@ -133,7 +133,6 @@ bindsym $mod+0 workspace $ws10
 
 bindsym Mod1+Control+Right	workspace next
 bindsym Mod1+Control+Left	workspace prev
-
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1
